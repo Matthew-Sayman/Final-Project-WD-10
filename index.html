@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Batch to Remember</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="LOGO/10_logo.ico">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <!--Jumbotron Video Background-->
+        <div class="jumbotron" id="video-container">
+            <video id="main-video" loop="true" autoplay="true" muted="true" preload="true">
+            <source src="Background/Final(2).mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!--Text Header-->
+        <img src="LOGO/10_logo.png" id="ten_logo">
+        <h1 id="prominent_text">A transition to a new beginning</h1>
+        <p id="sub-text">"We are each of us angels with only one wing, and we can only fly by embracing one another." - Lucretius</p>
+        <hr id="horizontal-line" style="width:10%;text-align: center;">
+
+        <!--Gallery Text-->
+        <h2 id="gallery-text">Gallery full of memories</h2>
+
+        <!--Gallery Image-->
+        <div class="full-image" id="fullimgcontainer">
+            <img src="BATCH_PHOTOS_10/turning_over.jpg" id="fullimg1">
+            <h2 id="description">Anything</h2>
+            <span onclick="closefullimg1()">X</span>
+        </div>
+
+        <div class="gallery-image">
+            <img src="BATCH_PHOTOS_10/turning_over.jpg" onclick="openfullimg1(this.src, 1)">
+            <img src="BATCH_PHOTOS_7/valentines_day.jpg" onclick="openfullimg1(this.src, 2)">
+            <img src="BATCH_PHOTOS_10/outside_party.jpg" onclick="openfullimg1(this.src, 3)">
+            <img src="BATCH_PHOTOS_10/parade_10.jpg" onclick="openfullimg1(this.src, 4)">
+            <img src="BATCH_PHOTOS_10/batch_turning_over.jpg" onclick="openfullimg1(this.src, 5)">
+            <img src="Other_Photos/lagaw_lagaw.jpg" onclick="openfullimg1(this.src, 6)">
+        </div>
+
+        <!--Member Testimony-->
+        <section>
+        <h1 id="testimony_mem">Testimony by our Group:</h1>
+        </section>
+
+        <div class="first_line">
+            <p id="first_text">Matthew Sayman</p>
+            <p id="first_description">
+                ● For me, a word that describes our batch is a rollercoaster.
+                Why? Because there are ups and downs that we, as Grade 10 Students, experience and those experiences
+                help us to grow for the upcoming obstacle, that is the Senior High.
+            </p>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/track/7eBpUuPnDTfbeP1P4P93CS?utm_source=generator" width="50%" height="100px;" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_one"></iframe>
+        </div>
+
+        <div class="second_line">
+            <p id="second_text">Alan Batiancila</p>
+            <p id="second_description">
+                ● Personally, the words that describe our batch are peace & chaos. 
+                This word suits our batch because there are times that we have our peace inside our classroom, 
+                but there are times that chaos ensues and memories that cannot be forgotten are created at that moment. 
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6TvxPS4fj4LUdjw2es4g21?utm_source=generator" width="50%" height="100px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_two"></iframe>
+        </div>
+
+        <div class="third_line">
+            <p id="third_text">Mia Necesario</p>
+            <p id="third_description">
+                ● The word that describes our batch is comfort. 
+                Why comfort you may ask? Since it is a comfort having people who understand you 
+                and have gone through similar experiences with you.
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0cqNGWvuukhCiKvEX7utys?utm_source=generator" width="50%" height="100px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_three"></iframe>
+        </div>
+
+        <div class="fourth_line">
+            <p id="fourth_text">Sean Arguez</p>
+            <p id="fourth_description">
+                ● For me, the words unique and interesting suits our batch the most. 
+                Since you meet different, unique, and interesting people that you create bonds 
+                with as you progress through the school year.
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/390SemxFYgPZ3FfGVqiIqt?utm_source=generator" width="50%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_four"></iframe>
+        </div>
+
+        <div class="fifth_line">
+            <p id="fifth_text">Rylee Macatual</p>
+            <p id="fifth_description">
+                ● For me, it is not really a word but a phrase and it's “Together, again.”. 
+                Since we take different paths in life, no matter where we go, we take a little of each other everywhere.
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1rqqCSm0Qe4I9rUvWncaom?utm_source=generator" width="50%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_five"></iframe>
+        </div>
+
+        <div class="sixth_line">
+            <p id="sixth_text">Richard Labuson</p>
+            <p id="sixth_description">
+                ● The word mystery fits our batch, for me personally. 
+                Since we really do not get to interact with the whole batch that much but only with those we know 
+                and have a bond with already in the past, so every batchmate is a mystery that one day I can talk with 
+                and see their personalities.
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/13lZDbwonGhOflQLQIfdtZ?utm_source=generator" width="50%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_six"></iframe>
+        </div>
+
+        <div class="seventh_line">
+            <p id="seventh_text">Frederick Lee</p>
+            <p id="seventh_description">
+                ● Brilliant and Tantalizing are both the words that suit our batch right now. 
+                Brilliant, as we continue to strive to become a much better version of ourselves 
+                and Tantalizing as we dream big even if it is not that reachable but that goal fuels our 
+                perseverance that makes us a student and a batch of the Grade 10 Tigers.
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4cktbXiXOapiLBMprHFErI?utm_source=generator" width="50%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_seven"></iframe>
+        </div>
+
+        <div class="eight_line">
+            <p id="eight_text">Godwon Tan</p>
+            <p id="eight_description">
+                ● For all of our batch, I have thought of it as nostalgia. 
+                It made me remember the memories, down right to the smallest things we made. 
+                But for me and for everyone, I will enjoy todays time even if it is the moments where it makes us down.
+            </p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0oW9kM7ZHkatdt52tAS0oI?utm_source=generator" width="50%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" id="spotify_eight"></iframe>
+        </div>
+        <hr id="line_horizon" style="width:30%;text-align: center;">
+
+        <!--Student Testimony-->
+        <h1 id="student_testimony">Student Testimony by the Batch Council:</h1>
+
+        <div class="governor">
+            <h2 id="governor_text">Adrienne Jessica Tan</h2>
+            <img src="Other_Photos/ss_gov.png" id="gov">
+        </div>  
+
+        <div class="vice_governor">
+            <h2 id="vicegov_text">Arnie Joanne Suravilla</h2>
+            <img src="Other_Photos/ss_vicegov.png" id="vicegov">
+        </div>
+
+        <div class="secretary">
+            <h2 id="secretary_text">Ella Borromeo</h2>
+            <img src="Other_Photos/ss_sec.png" id="sec">
+        </div>
+
+        <div class="treasurer">
+            <h2 id="treasurer_text">Mike Eric Balontong</h2>
+            <img src="Other_Photos/ss_treasurer.png" id="treasure">
+        </div>
+
+        <div class="auditor">
+            <h2 id="audi_text">Marc Ty</h2>
+            <img src="Other_Photos/ss_audi.png" id="audi">
+        </div>
+
+        <div class="pio">
+            <h2 id="pio_text">Ethan Chia</h2>
+            <img src="Other_Photos/ss_pio.png" id="pioo">
+        </div>
+
+        <div class="socialmed">
+            <h2 id="soc_text">Paige Paypon</h2>
+            <img src="Other_Photos/ss_soc.png" id="soc">
+        </div>
+        <hr id="flying_line" style="width:30%;text-align: center;">
+
+        <!--Teacher Testimony-->
+        <h1 id="teacher_testimony">Teacher's Testimony to the Batch and Sections:</h1>
+
+        <div class="sec_diamond">
+            <h2 id="diamond">Adviser of Diamond:</h2>
+            <h4 id=subtext_1>Ms. Jhona Mae Cabasan</h4>
+            <p id="description_1">"I am blessed to be able to teach such amazing students that are responsible and easy to get along students."</p>
+        </div>
+
+        <div class="sec_sunstone">
+            <h2 id="sunstone">Adviser of Sunstone</h2>
+            <h4 id="subtext_2">Mrs. Marites V. Hipone</h4>
+            <p id="description_2">"I am greatful that I handled the current batch of Grade 10 and the adviser of Sunstone as they are easy-going, open-minded, and responsible students."</p>
+        </div>
+
+        <div class="sec_topaz">
+            <h2 id="topaz">Adviser of Topaz</h2>
+            <h4 id="subtext_3">Mr. Angelo Cachero</h4>
+            <p id="description_3">"I've had the best time of this year handling the Grade 10 and especially my Tantilizing Topaz. I started the year with no expectations, following the phrase of “Que Sera Sera” which is in latin that means “whatever will be will be”. This has led me to deliver many memorable and happy moments together with the batch and I am so happy to be of service to the Tigers for this school year"</p>
+        </div>
+        <hr id="levitating_line" style="width:40%;text-align: center;">
+
+        <!--Script-->
+        <script>
+
+            var fullimgcontainer = document.getElementById("fullimgcontainer");
+            var fullimg1 = document.getElementById("fullimg1");
+
+            function openfullimg1(pic, pic_num){
+                fullimgcontainer.style.display = "flex";
+                fullimg1.src = pic
+                if (pic_num == 1){
+                    document.getElementById("description").innerHTML = "Turning Over";
+                }
+                else if (pic_num == 2){
+                    document.getElementById("description").innerHTML = "Valentines Day";
+                }
+                else if (pic_num == 3){
+                    document.getElementById("description").innerHTML = "Christmas Party";
+                }
+                else if (pic_num == 4){
+                    document.getElementById("description").innerHTML = "Batch Parade";
+                }
+                else if (pic_num == 5){
+                    document.getElementById("description").innerHTML = "Batch Turning Over";
+                }
+                else if (pic_num == 6){
+                    document.getElementById("description").innerHTML = "Group Outing";
+                }
+            }
+
+            function closefullimg1(){
+                fullimgcontainer.style.display = "none";
+            }
+
+        </script>
+    </body>
+</html>
